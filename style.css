@@ -50,7 +50,7 @@ header p{
   max-width: 32rem;
   margin: 3.2rem auto 2.2rem;
 
-  color: #23053A;
+  color: #FFFFFF;
 }
 
 h1, h2{
@@ -98,12 +98,19 @@ main .card h2{
   animation: topdown 600ms 600ms forwards;
 }
 
+main .card:nth-child(6){
+  display: none;
+}
+main .card:nth-child(3){
+  display: none;
+}
+
 footer{
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 2.8rem;
-  margin-block: 5rem;
+  margin-block: 0 5rem;
 
   display: flex;
   align-items: center;
@@ -210,6 +217,13 @@ footer a{
   }
   body main .card img{
     width: 22rem;
+  }
+
+  main .card:nth-child(6){
+    display: inherit;
+  }
+  main .card:nth-child(3){
+    display: inherit;
   }
   
   body footer{
