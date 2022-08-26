@@ -1,3 +1,4 @@
+/* reset of all necessary config*/
 *{
   padding: 0;
   margin: 0;
@@ -10,7 +11,7 @@
   --color-title-h2: hsla(232, 17%, 35%, 1);
 }
 :root{
-  /*======Formatando font para medida flexivel ====*/
+  /*======Format font for flexible measure ====*/
   font-size: 62.5%;
 }
 

@@ -1,9 +1,9 @@
 # Explorer-Project07-stage03
 
-## abordamos nessa landing page
+## about landing page
 - Display flex
 - Grid
-- Keyframes
+- Keyframe
 - transition
 - transform: translateY
 - media responsiva
